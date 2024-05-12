@@ -40,6 +40,9 @@ Figure 02  Encoder 8 * 3
 
 **PROGRAM**
 
+Developed by:Hemapriya.K
+RegisterNumber:212223040066
+
 module Encoder8to3(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
 input d0,d1,d2,d3,d4,d5,d6,d7; 
 output a0,a1,a2; 
@@ -48,14 +51,15 @@ assign a1=d2|d3|d6|d7;
 assign a2=d4|d5|d6|d7; 
 endmodule
 
-Developed by:Hemapriya.K
-RegisterNumber:212223040066
+
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+
 ![Screenshot (53)](https://github.com/HemapriyaOfficial/ENCODER8TO3DATAFLOW/assets/147114275/12bb7e2b-3363-485b-83d1-0ed66371a8fa)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+
 ![Screenshot (52)](https://github.com/HemapriyaOfficial/ENCODER8TO3DATAFLOW/assets/147114275/0a8d4e88-fd3b-44d6-a76c-2dd59d0499ed)
 
 **RESULTS**
